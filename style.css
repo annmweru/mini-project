@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+li, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+     background-color:black;
+}
+.logo{
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    text-align: right;
+}
+
+nav{
+    order:1 ;
+}
+
+.nav_links{
+    list-style: none;
+   
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav_links li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: blue;
+}
+
+.cta{
+    order: 2;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: blue;
+    color: #fff;
+    margin: 20px;
+    margin-right: 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+}
+.container .cta button{
+   align-items: center;
+   position: relative;
+   background-color: white;
+    color: red;
+}
+cta a{
+   justify-content: right;
+}
+.btn-class .btn{
+    right: 300px;
+    top: 5px;
+    background: #fff;
+    color: black;
+}
+
+/* header sytling*/
+section{
+    background: rgb(138, 226, 50);
+    width: 100%;
+    height: 200px;
+    margin:0;
+    margin-bottom: 10px;
+}
+.body h1{
+    font-size: 30px;
+    color:#fff;
+}
+.body p{
+    color:white;
+}
+
+.container{
+    color:rgb(68, 0, 255);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color:black;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#btn-three{
+    text-align: center;
+}
+
+/* body sytling*/
+h1 span{
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+p{
+    text-align: center;
+    color: #000;
+}
+
+.wrapper{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.bd{
+    background: rgb(233, 228, 228);
+    margin: 10px;
+    margin-top: 50px;
+    width: 400px;
+    justify-content: center;
+    padding: 20px;
+    line-height: 150px;
+    color: rgb(245, 240, 240);
+    font-size: 30px;
+    position:relative;
+    text-align: center;
+}
+.max-width {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.with {
+    margin: 20px;
+    margin-top: 10px;
+    width: 600px;
+    justify-content: center;
+    padding: 20px;
+    line-height: 20px;
+    position:relative;
+
+}
+.max-width .with h1{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
